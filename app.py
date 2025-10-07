@@ -34,8 +34,6 @@ with st.sidebar:
 
     gap_penalty = st.number_input("Gap penalty (negative)", value=-2, step=1)
 
-    st.markdown("---")
-    st.caption("Tip: Short sequences first to see the path, then scale up.")
 
 col_left, col_right = st.columns([1, 1])
 
